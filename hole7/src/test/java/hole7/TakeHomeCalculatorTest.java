@@ -11,7 +11,8 @@ public class TakeHomeCalculatorTest {
 
     @Test
     public void canCalculateTax() throws Exception {
-        Integer first = new TakeHomeCalculator(taxRate(10)).netAmount(money(40, "GBP"), money(50, "GBP"), money(60, "GBP")).value;
+        Integer first = new TakeHomeCalculator(taxRate(10)).netAmount(money(40, "GBP"),
+                money(50, "GBP"), money(60, "GBP")).value;
         assertEquals(135, first.intValue());
     }
 

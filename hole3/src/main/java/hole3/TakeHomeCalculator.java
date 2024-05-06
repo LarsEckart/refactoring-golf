@@ -37,6 +37,7 @@ class TakeHomeCalculator {
     }
 
     static class Money {
+
         final Integer value;
         final String currency;
 

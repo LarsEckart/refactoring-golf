@@ -1,6 +1,7 @@
 package hole6;
 
 class Money {
+
     final Integer value;
     final String currency;
 

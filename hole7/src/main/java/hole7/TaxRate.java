@@ -3,6 +3,7 @@ package hole7;
 import static hole7.Money.money;
 
 public class TaxRate {
+
     private final int percent;
 
     private TaxRate(int percent) {
